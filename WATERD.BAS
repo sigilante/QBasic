@@ -1,0 +1,21 @@
+    SCREEN 12
+    RANDOMIZE TIMER
+    PAINT (1, 1), 4
+    FOR CRCLE = 1 TO 50
+    CIRCLE (319 * RND, 199 * RND), 200
+    CIRCLE STEP(319 * RND, 199 * RND), 100
+    LINE (639 * RND, 479 * RND)-(639 * RND, 479 * RND)
+    NEXT CRCLE
+5 FOR X = 639 TO 1 STEP -1
+    FOR Y = 479 TO 1 STEP -1
+    IF POINT(X, Y) <> 11 THEN PAINT (X, Y), 14, 4
+    NEXT Y
+    NEXT X
+    FOR X = 639 TO 1 STEP -1
+    FOR Y = 479 TO 1 STEP -1
+    IF POINT(X, Y) = 10 THEN PAINT (X, Y), 14, 4
+    NEXT Y
+    NEXT X
+    GOTO 5
+
+
