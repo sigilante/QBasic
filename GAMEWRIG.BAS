@@ -1,0 +1,25 @@
+REM***GAME WRIGHT SYMBOL
+SCREEN 12: COLOR 11: WIDTH 80, 60
+DRAW "BM 50,50;C13;NR5;D7;R5;U3;L1;R1;BR2;ND3;R3;D3;NL3;BR2;U3;R3;NR3;ND3"
+DRAW "R3;D3;BR2;NR3;U3;R3;BM 50,50;D8;L3;D25;R40;U25;L37;BM 50,75;D7"
+DRAW "R4;NU7;L2;U2;D2;R2;BR2;U3;R3;BR2;ND3;BU2;U1;BD6;BR2;U3;R3;D3;NL3"
+DRAW "D3;L3;R3;U3;BR2;U6;D3;R3;D3;BR3;U6;D2;L1;R2;BL12;BU13;C10;U1;R12;D1"
+DRAW "NL12;BR3;U1;R1;D1;L1"
+PRINT : PRINT : PRINT : PRINT : PRINT : PRINT : PRINT : PRINT : PRINT : PRINT : PRINT
+PRINT "    G a m e"
+COLOR 11
+PRINT
+PRINT "  ÛßßßßßßßßßßßßßßßßÛ"
+PRINT "  Û                Û"
+PRINT "  Û        ";
+COLOR 4
+PRINT "ßßßß ß";
+COLOR 11
+PRINT "  Û"
+PRINT "  Û                Û"
+PRINT "  Û                Û"
+PRINT "  Û W r i g h t    Û"
+PRINT "  Û                Û"
+PRINT "  ßßßßßßßßßßßßßßßßßß"
+
+
